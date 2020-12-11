@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="calculator.css">
+      <title>電卓</title>
+    </head>
+  <body>
+    <div class="calculator_body">
+      <div class="block_calculator_text">
+        <p class="calculator_text"> Calculator </p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyHR0CJmbqsrdqFH75tombfmlkw7GdWZw7Ew&usqp=CAU" alt="熊の画像" class="img_bear">
+      </div>
+      <input type="text" id="result">
+    <div class="block_button">
+      <input type="button" class="button_number" value="1" onclick="edit(this)">
+      <input type="button" class="button_number" value="2" onclick="edit(this)">
+      <input type="button" class="button_number" value="3" onclick="edit(this)">
+      <input type="button" class="button_symbol" value="+" onclick="edit(this)">
+    </div>
+    <div class="block_button">
+      <input type="button" class="button_number" value="4" onclick="edit(this)">
+      <input type="button" class="button_number" value="5" onclick="edit(this)">
+      <input type="button" class="button_number" value="6" onclick="edit(this)">
+      <input type="button" class="button_symbol" value="-" onclick="edit(this)">
+    </div>
+    <div class="block_button">
+      <input type="button" class="button_number" value="7" onclick="edit(this)">
+      <input type="button" class="button_number" value="8" onclick="edit(this)">
+      <input type="button" class="button_number" value="9" onclick="edit(this)">
+      <input type="button" class="button_symbol" value="/" onclick="edit(this)">
+    </div>
+    <div class="block_button">
+      <input type="button" class="button_number button_number_0" value="0" onclick="edit(this)">
+      <input type="button" class="button_symbol" value="." onclick="edit(this)">
+      <input type="button" class="button_symbol" value="*" onclick="edit(this)">
+      <input type="button" class="button_symbol" value="=" onclick="calc()">
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
